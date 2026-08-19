@@ -107,10 +107,6 @@
     border:1px solid var(--border);border-radius:var(--radius);height:320px;overflow:hidden;position:relative;
   }
   .about-photo img{width:100%;height:100%;object-fit:cover;}
-  .about-photo .cap{
-    position:absolute;left:0;right:0;bottom:0;background:linear-gradient(0deg,rgba(8,43,65,.82),transparent);
-    color:#fff;font-size:.72rem;padding:26px 16px 10px;
-  }
   .checklist{list-style:none;padding:0;margin:18px 0;}
   .checklist li{padding:8px 0 8px 30px;position:relative;color:var(--ink);}
   .checklist li:before{content:"✓";position:absolute;left:0;top:8px;color:var(--teal-dark);font-weight:800;
@@ -133,10 +129,6 @@
     height:190px;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy),var(--teal));
   }
   .doc-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;}
-  .doc-photo .sample-tag{
-    position:absolute;top:8px;right:8px;background:rgba(8,43,65,.72);color:#fff;font-size:.62rem;font-weight:700;
-    padding:3px 8px;border-radius:6px;letter-spacing:.02em;
-  }
   .doc-body{padding:18px;}
   .doc-body h4{margin:0 0 4px;color:var(--navy-dark);font-size:1rem;}
   .doc-body .branch{color:var(--teal-dark);font-weight:700;font-size:.82rem;margin-bottom:8px;}
